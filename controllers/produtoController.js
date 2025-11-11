@@ -1,7 +1,7 @@
 // controllers/produtoController.js (VERSÃO FINAL COM SEQUELIZE)
 
 // Importa o Modelo Sequelize 'Produto' (não o 'produtoModel' antigo)
-const Produto = require('../models/produto');
+const Produto = require('../models/produtoModel');
 
 // GET (Listar Todos)
 // Sintaxe antiga: const produtos = await produtoModel.findAll();
